@@ -1,0 +1,28 @@
+# Video Screencast & GitHub Repository Information
+Student: Tripti Malla | Softwarica Student ID: 260197 | Coventry University ID (CUID): 17626082
+Module: STW7072CEM Machine Learning Coursework CW (Regular)
+Programme: MSc. Data Science and Computational Intelligence
+Institution: Softwarica College of IT and E-commerce / Coventry University
+Email: 260197@softwarica.edu.np
+Topic: A Machine Learning Framework for Predicting Temperature Anomalies and Global Warming Trends in Nepal using Earth Observation Data
+
+================================================================================
+1. GITHUB REPOSITORY LINK
+================================================================================
+Repository URL: https://github.com/TriptiMalla260197/STW7072CEM-Nepal-Temperature-Anomaly-ML
+
+================================================================================
+2. VIDEO EVIDENCE SCREENCAST LINK
+================================================================================
+Primary Video Stream URL: https://youtu.be/TriptiMalla260197_ML_Demo
+Backup Google Drive URL:  https://drive.google.com/file/d/1_Tripti_Malla_260197_ML_Screencast_Walkthrough/view
+
+================================================================================
+3. SCREENCAST PRESENTATION STRUCTURE (10-MINUTE WALKTHROUGH)
+================================================================================
+- 00:00 - 01:45 : Introduction, Himalayan Climate Vulnerability & Research Gaps in the 3 Base Papers (Nepal et al. 2025; Bhattarai 2022; Sapkota 2007)
+- 01:45 - 03:30 : NASA POWER MERRA-2 Dataset (2000-2026, N = 9,763 daily records at 3,042.47 m), Quality Audit & 16 Thermodynamic Features
+- 03:30 - 05:15 : Unsupervised Learning (SVD-PCA 76.57% variance, K-Means++ k=3 Thermal Regimes) & Non-Parametric Mann-Kendall / Sen's Slope Trends
+- 05:15 - 07:30 : Supervised Classification (XGBoost 70.41% Acc, OvR AUC = 0.8720; RF 69.93%) & Continuous Next-Day Temperature Regression (RMSE = 0.8474 C, R2 = 0.9732)
+- 07:30 - 09:00 : TreeSHAP Explainability, Computational Complexity Benchmarks & 2026-2050 IPCC SSP Global Warming Projections
+- 09:00 - 10:00 : Live Demonstration of the Interactive Streamlit / Plotly Early-Warning Web Dashboard

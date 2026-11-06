@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Nepal Temperature Anomaly & Global Warming Dashboard — Tripti Malla (260197)</title>
+<style>
+body { font-family: 'Segoe UI', Arial, sans-serif; background: #0F172A; color: #F8FAFC; margin: 0; padding: 24px; }
+.header { background: #1E293B; padding: 20px 28px; border-radius: 12px; border-left: 6px solid #38BDF8; margin-bottom: 20px; }
+.kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 24px; }
+.kpi { background: #1E293B; padding: 18px; border-radius: 10px; border: 1px solid #334155; }
+.kpi h3 { margin: 0 0 8px 0; font-size: 13px; color: #94A3B8; text-transform: uppercase; }
+.kpi .val { font-size: 26px; font-weight: 700; color: #38BDF8; }
+.kpi .sub { font-size: 12px; color: #34D399; margin-top: 4px; }
+.card { background: #1E293B; padding: 20px; border-radius: 10px; border: 1px solid #334155; margin-bottom: 20px; }
+table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 14px; }
+th, td { padding: 10px 12px; border-bottom: 1px solid #334155; text-align: left; }
+th { background: #0F172A; color: #38BDF8; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1 style="margin:0 0 6px 0; font-size:22px;">Nepal Temperature Anomaly & Global Warming Forecasting Dashboard (NASA POWER MERRA-2)</h1>
+  <p style="margin:0; color:#94A3B8; font-size:14px;">Author: <strong>Tripti Malla</strong> (Student ID: 260197 | CUID: 17626082) | STW7072CEM Machine Learning | Grid: 28.30°N, 83.94°E (Elevation: 3,042.47 m)</p>
+</div>
+<div class="kpi-grid">
+  <div class="kpi"><h3>NASA POWER Observations</h3><div class="val">9,763 Days</div><div class="sub">2000–2026 (100% Complete)</div></div>
+  <div class="kpi"><h3>Best Classifier (XGBoost)</h3><div class="val">70.41% Acc</div><div class="sub">OvR ROC-AUC: 0.8720 | F1: 0.7021</div></div>
+  <div class="kpi"><h3>Next-Day Forecast Skill</h3><div class="val">RMSE 0.8474°C</div><div class="sub">R² = 0.9732 (Beats API Persistence)</div></div>
+  <div class="kpi"><h3>2050 Warming Outlook</h3><div class="val">+1.76°C (SSP2-4.5)</div><div class="sub">+2.38°C under High-Emission SSP5-8.5</div></div>
+</div>
+<div class="card">
+  <h2 style="margin-top:0; font-size:18px; color:#38BDF8;">Supervised Anomaly Regime Classification Benchmarks (Test Holdout 2021–2026, N = 2,092)</h2>
+  <table>
+    <tr><th>Model Architecture</th><th>Test Accuracy</th><th>Weighted Precision</th><th>Weighted Recall</th><th>Weighted F1</th><th>OvR ROC-AUC</th><th>Brier Score</th></tr>
+    <tr><td><strong>XGBoost (Gradient Boosted Trees)</strong></td><td><strong>70.41%</strong></td><td>0.7013</td><td>0.7041</td><td><strong>0.7021</strong></td><td><strong>0.8720</strong></td><td>0.1323</td></tr>
+    <tr><td>Random Forest (Bagging Ensemble)</td><td>69.93%</td><td>0.6961</td><td>0.6993</td><td>0.6972</td><td>0.8693</td><td>0.1316</td></tr>
+    <tr><td>Multinomial Logistic Regression</td><td>68.79%</td><td>0.6892</td><td>0.6879</td><td>0.6872</td><td>0.8637</td><td>0.1355</td></tr>
+    <tr><td>Decision Tree (CART)</td><td>68.45%</td><td>0.6822</td><td>0.6845</td><td>0.6829</td><td>0.8530</td><td>0.1388</td></tr>
+    <tr><td>Support Vector Machine (RBF)</td><td>64.48%</td><td>0.6368</td><td>0.6448</td><td>0.6328</td><td>0.8324</td><td>0.1891</td></tr>
+  </table>
+</div>
+</body>
+</html>

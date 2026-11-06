@@ -1,0 +1,7 @@
+Model,Training_Time_s,Inference_Latency_ms_per_sample,Model_Memory_MB
+Decision Tree (CART),0.5207,0.0035,0.08
+Multinomial Logistic Regression,0.4742,0.0035,0.08
+Support Vector Machine (RBF),1.4529,0.0052,0.08
+Random Forest,26.9381,0.1121,2.252
+XGBoost,34.823,0.0371,0.386
+Multiple Linear Regression (Ridge OLS),0.0058,0.0018,0.045

@@ -1,0 +1,16 @@
+Model,Class,Precision,Recall,F1_Score
+Decision Tree (CART),Cool Anomaly,0.7263,0.7851,0.7546
+Decision Tree (CART),Normal Baseline,0.5377,0.5135,0.5253
+Decision Tree (CART),Warm / Heat-Stress,0.7668,0.7491,0.7579
+Multinomial Logistic Regression,Cool Anomaly,0.7022,0.795,0.7457
+Multinomial Logistic Regression,Normal Baseline,0.5456,0.53,0.5377
+Multinomial Logistic Regression,Warm / Heat-Stress,0.7961,0.7369,0.7653
+Support Vector Machine (RBF),Cool Anomaly,0.6267,0.8463,0.7201
+Support Vector Machine (RBF),Normal Baseline,0.501,0.3709,0.4262
+Support Vector Machine (RBF),Warm / Heat-Stress,0.7545,0.7186,0.7361
+Random Forest,Cool Anomaly,0.7301,0.7868,0.7574
+Random Forest,Normal Baseline,0.5625,0.527,0.5442
+Random Forest,Warm / Heat-Stress,0.7794,0.7747,0.777
+XGBoost,Cool Anomaly,0.7386,0.8033,0.7696
+XGBoost,Normal Baseline,0.5653,0.533,0.5487
+XGBoost,Warm / Heat-Stress,0.7841,0.7698,0.7769

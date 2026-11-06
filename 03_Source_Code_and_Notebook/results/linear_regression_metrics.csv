@@ -1,0 +1,5 @@
+Model,RMSE_C,MAE_C,R2_Score,Training_Time_s
+API Persistence Baseline (T_t+1 = T_t),0.9343,0.7057,0.9675,0.0001
+Multiple Linear Regression (Ridge OLS),0.8644,0.6648,0.9721,0.0058
+Random Forest Regressor,0.8535,0.6541,0.9728,34.24
+XGBoost Regressor,0.8474,0.6463,0.9732,9.7577

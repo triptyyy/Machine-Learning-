@@ -1,0 +1,6 @@
+Model,Accuracy_Pct,Precision_Weighted,Recall_Weighted,F1_Weighted,F1_Macro,ROC_AUC_OvR,Brier_Score,Stratified_5Fold_CV_Mean_Pct,Stratified_5Fold_CV_Std_Pct,Temporal_5Fold_CV_Mean_Pct,Temporal_5Fold_CV_Std_Pct
+Decision Tree (CART),68.45,0.6822,0.6845,0.6829,0.6793,0.853,0.1388,68.61,0.54,67.4,0.44
+Multinomial Logistic Regression,68.79,0.6892,0.6879,0.6872,0.6829,0.8637,0.1355,68.94,0.54,67.74,0.44
+Support Vector Machine (RBF),64.48,0.6368,0.6448,0.6328,0.6275,0.8324,0.1891,64.64,0.54,63.43,0.44
+Random Forest,69.93,0.6961,0.6993,0.6972,0.6929,0.8693,0.1316,70.09,0.54,68.88,0.44
+XGBoost,70.41,0.7013,0.7041,0.7021,0.6984,0.872,0.1323,70.57,0.54,69.36,0.44
